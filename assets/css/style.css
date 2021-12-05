@@ -109,7 +109,7 @@ ol, ul {
   left: 400px;
   font-size: 42px;
   font-family: fantasy;
-  color: black;
+  color: rgb(233, 210, 109);
   font: weight 900px;
 }
 
@@ -181,15 +181,28 @@ main {
 .contactinfo {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   width: 80%;
-  padding-left: 5px;
+  padding-left: 15px;
   padding-right: 5px;
-  margin-top: -7%;
+  margin-top: -5%;
   float: right;
   box-shadow: inset 5px 0 5px -5px #29627e;
 }
 
 .displayinline {
-  display: inline;
+  display: flex;
+}
+
+.phone {
+  padding-left: 20px;
+  padding-right:60px;
+}
+
+.linkedin {
+  padding-left: 60px;
+}
+
+.github {
+  padding-left: 70px;
 }
 
 
@@ -237,8 +250,31 @@ footer {
   display: flex;
   justify-content: center;
   padding: 2%;
-  background-color: #13293d;
   color: #fff;
+}
+
+.footerparent {
+  margin-bottom: 0%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.footerimage {
+  margin-top: 0%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.footerquote {
+  position: absolute;
+  bottom: 10px;
+  left: 75px;
+  font-size: 30px;
+  font-family: fantasy;
+  color: rgb(233, 210, 109);
+  font: weight 900;
 }
 
 .resources:hover .links {
@@ -270,6 +306,13 @@ footer {
   .signup {
     border-color: rgb(22, 104, 110);
     text-align: center;
+    margin-bottom: 0%;
+    padding-top: 5px;
+  }
+
+  .signup h2 {
+    margin-bottom: 2px;
+    border-top:rgb(22, 104, 110);
   }
 
   .signup button {
@@ -279,6 +322,10 @@ footer {
     background-color: #c8caab;
     color: #29627e;
     font-weight: 600;
+    width: fit-content;
+  }
+  .signup input {
+    width: 400px;
   }
 
 
