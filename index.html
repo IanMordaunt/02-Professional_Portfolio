@@ -6,6 +6,12 @@
     <title>Ian Mordaunt</title>
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="javascript" href="./assets/02PP.js" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
   </head>
 
   <body>
@@ -17,16 +23,16 @@
         <div class="nav-li-style">
           <ul>
             <div class="nav-aboutme">
-              <li><a href="#">About Me</a></li>
+              <li><a href="#aboutme">About Me</a></li>
             </div>
             <div class="nav-work">
-              <li><a href="#">Work</a></li>
+              <li><a href="#work">Work</a></li>
             </div>
             <div class="nav-contactme">
-              <li><a href="#">Contact Me</a></li>
+              <li><a href="#contact-me">Contact Me</a></li>
             </div>
             <div class="nav-resume">
-              <li><a href="#">Resume</a></li>
+              <li><a href="./assets/Resume/">Resume</a></li>
             </div>
           </ul>
         </div>
@@ -48,17 +54,10 @@
     </section>
 
     <main>
-      <section class="aboutme">
+      <section id="aboutme">
         <h2>About Me</h2>
         <aside class="aboutmeinfo">
-          <p>
-            is a style sheet language that describes the presentation of a
-            webpage. If HTML is the skeleton of a webpage, then CSS is the meat
-            on the bones. Whereas HTML strictly pertains to webpage markup, CSS
-            deals with colors, aesthetics, and visual layout. It hooks onto
-            specific elements of an HTML page and formats them using any number
-            of style options.
-          </p>
+          
           <p>
             However, jumping into CSS isn't always straightforward. As it often
             goes in web development, formatting visual styles on a website
@@ -71,7 +70,7 @@
         </aside>
       </section>
 
-      <section class="work">
+      <section id="work">
         <h2>Work</h2>
         <aside class="workinfo">
           <p>
@@ -86,36 +85,25 @@
             >
             to find the exact syntax.
           </p>
-          <p>
-            Believe it or not, you can build complex web layouts through simple
-            HTML and CSS alone!
-          </p>
         </aside>
       </section>
 
-      <section class="resources">
+      <section class="main" id="contact-me">
         <h2>Contact Me</h2>
-      </section>
-      <aside class="links">
-        <ul>
-          <li>
-            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/::before">
-              MDN web docs on ::before
-            </a>
-          </li>
-          <li>
-            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/::after">
-              MDN web docs on ::after
-            </a>
-          </li>
-
-          <li>
-            <a href="https://www.w3schools.com/css/css_pseudo_elements.asp">
-              W3Schools tutorial on Pseudo-elements
-            </a>
-          </li>
+      <aside class="contactinfo">
+        <ul class="displayinline">
+          <div>
+            <li>(505)554-0505</li>
+          </div>
+          <div>
+            <li>ianmordaunt@gmail.com</li>
+          </div>
+          <div>
+            <li>Github</li>
+          </div>
         </ul>
       </aside>
+    </section>
 
       <section class="signup">
         <h2>Share you E-mail!</h2>
