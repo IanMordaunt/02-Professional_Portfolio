@@ -12,13 +12,3 @@ body {
   min-height: 100%;
 }
 
-
-input, select, option, optgroup, textarea, button,
-pre, code {
-  font-size: 100%;
-  font-family: inherit;
-}
-
-ol, ul {
-  list-style: none;
-}
