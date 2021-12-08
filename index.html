@@ -4,141 +4,138 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ian Mordaunt</title>
-    <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="javascript" href="./assets/02PP.js" />
-  <style>
-    html {
-      scroll-behavior: smooth;
-    }
-  </style>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
   </head>
 
   <body>
     <header>
-      <section class="name">
+      <div class="container">
         <h1>Ian Mordaunt</h1>
-      </section>
-      <nav>
-        <div class="nav-li-style">
+        <nav>
           <ul>
-            <div class="nav-aboutme">
-              <li><a href="#aboutme">About Me</a></li>
-            </div>
-            <div class="nav-work">
-              <li><a href="#work">Work</a></li>
-            </div>
-            <div class="nav-contactme">
-              <li><a href="#contact-me">Contact Me</a></li>
-            </div>
-            <div class="nav-resume">
-              <li><a href="./assets/Resume/">Resume</a></li>
-            </div>
+            <li><a class="nav-aboutme" href="#aboutme">About Me</a></li>
+            <li><a class="nav-work" href="#work">Work</a></li>
+            <li><a class="nav-contactme" href="#contact-me">Contact Me</a></li>
+            <li><a class="nav-resume" href="./assets/Resume/Resume.docx">Resume</a></li>
           </ul>
-        </div>
-      </nav>
+        </nav>
+      </div>
     </header>
 
     <section class="parent">
-      <img class="image1"
-        src="./assets/corrugated.jpg"
-        style="height: 190px; width: 1065px"
-        alt="Image of corrugated metal"
-      />
-      <img class="image2"
+      <img
+        class="image2"
         src="./assets/Profile.jpg"
-        style="height: 175px; width: 160px"
         alt="Image of Profile Picture"
       />
-      <p class="quote"><strong>"Luck is what happens when preparation meets opportunity."</strong></p>
+      <p class="quote">
+        <strong>"Luck is what happens when preparation meets opportunity."</strong>
+      </p>
     </section>
 
     <main>
-      <section id="aboutme">
+      <section class="aboutmecontainer">
         <h2>About Me</h2>
-        <aside class="aboutmeinfo">
-          
+        <div class="aboutmeinfo">
           <p>
-            Learning somthing new is what I live for. However, jumping into CSS isn't always straightforward. As it often
-            goes in web development, formatting visual styles on a website
-            
+          Learning something new is what I live for.  Everyday is a new oppotunity improve myself and grow in knowledge. Collaborating with others to achieve higher goals is where I feel at my best.  I love being in a team environment. Seeing and hearing about different perspectives excites me.  I strongly believe in the saying, "two minds are greater than one." Making progress and sharing progress with others brings me satisfaction.  Life long learning is my goal. Constantly gaining knowledge and putting that knowledge into practice is my life goal.  
+          
           </p>
-        </aside>
+        </div>
       </section>
 
-      <section id="work">
+    <section class="workcontainer">
         <h2>Work</h2>
-        <aside class="workinfo">
-          <div class="worktypes">
-            <section class="bigcard">      
-              <img src="./assets/Geometry4.jpg" alt="Geometry class 1" />
-              <p>Most Resent</p>
-            </section>
-            <section class="card">      
-              <img src="./assets/Geometry1.jpg" alt="Geometry class 1" />
+      <section class="workinfo">
+        <div class="row">
+          <a class="biggeo row1" href="https://github.com/IanMordaunt/01-code_refactor">
+            <div>
+              <h2>Project 1</h2>
+              <p>HTML / CSS</p>
+            </div>
+          </a>
+          </a>
+        </div>
+        <div class="row">
+          <a class="geo row2" href='https://github.com/'>
+            <div>
+              <h2>Project 2</h2>
               <p>JavaScript</p>
-            </section>
-            <section class="card">
-              <img src="./assets/Geometry2.jpg" alt="tablet held in hands" />
+            </div>
+          </a>
+          <a class="geo2 row2" href="https://github.com/" >
+            <div>
+              <h2>Project 3</h2>
               <p>Node</p>
-            </section>
-            <section class="card">    
-              <img
-                src="./assets/Geometry3.jpg"
-                alt="rolls of toilet paper in a basket"/>
+            </div>
+          </a>
+        </div>
+        <div class="row">
+          <a class="geo3 row2" href="https://github.com/">
+            <div>
+              <h2>Project 4</h2>
               <p>React</p>
-            </section>
-            <section class="card">
-              <img
-                src="./assets/Geometry5.jpg"
-                alt="4 wooden spoons with different seasonings"/>
-              <p>Price: $10</p>
-            </section>
-          </div>
-        </aside>
+            </div>
+          </a>
+          <a class="geo4 row2" href="https://github.com/">
+            <div>
+              <h2>Project 5</h2>
+              <p>MERN Stack</p>
+            </div>
+          </a>
+        </div>
       </section>
+    </section>
 
-      <section id="contact-me">
+    <section class="contactmecontainer">
         <h2>Contact Me</h2>
-      <aside class="contactinfo">
-        <ul class="displayinline">
-          <div class="phone">
-            <li>(505)554-0505</li>
-          </div>
-          <div>
-            <li><a href="ianmordaunt@gmail.com">ianmordaunt@gmail.com</a></li>
-          </div>
-          <div class="linkedin">
-            <li><a href="https://www.linkedin.com/in/ian-mordaunt-9b701b220/">Linkedin</a></li>
-          </div>
-          <div class="github">
-            <li><a href="https://github.com/IanMordaunt">Github</a></li>
-          </div>
+      <section class="contactinfo">
+        <ul>
+          <li class="phone">(505)554-0505</li>
+          <li><a href="ianmordaunt@gmail.com">ianmordaunt@gmail.com</a></li>
+          <li class="linkedin">
+            <a href="https://www.linkedin.com/in/ian-mordaunt-9b701b220/"
+              >Linkedin</a
+            >
+          </li>
+          <li class="github">
+            <a href="https://github.com/IanMordaunt">Github</a>
+          </li>
         </ul>
-      </aside>
+        </section>
     </section>
 
       <section class="signup">
         <h2>Let's Connect!</h2>
         <form>
           <input type="text" placeholder="E-mail address" />
-          <p>
-          </p>
+          <p></p>
           <button>Submit</button>
         </form>
       </section>
-      <p>
-      </p>
+      <p></p>
     </main>
 
     <footer>
       <section class="footerparent">
-        <img class="footerimage"
+        <img
+          class="footerimage"
           src="./assets/corrugated.jpg"
-          style="height: 70px; width: 1065px"
+          style="height: 70px; width: 100%"
           alt="Image of corrugated metal"
         />
-        <p class="footerquote"><strong>"We are what we repeatedly do. Excellence then is a habit." - Socrates</strong></p>
+        <p class="footerquote">
+          <strong
+            >"We are what we repeatedly do. Excellence then is a habit."
+            -Socrates</strong
+          >
+        </p>
       </section>
     </footer>
   </body>
