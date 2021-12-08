@@ -29,7 +29,6 @@ h1 {
   float: left;
 }
 
-
 nav {
  float:right
 }
@@ -261,7 +260,6 @@ margin-left: 9%;
   box-shadow: inset 5px 0px 0px 0px #29627e;
   display: inline-block;
   padding-bottom: 15px;
-
 }
 
 .contactinfo li {
@@ -441,8 +439,6 @@ footer {
   footer {
     display: flex;
     justify-content: center;
-
-    
   }
   
   .footerparent {
@@ -459,7 +455,6 @@ footer {
     color: rgb(233, 210, 109);
     font: weight 900;
     z-index: 100;
-    
   }
 }
 
