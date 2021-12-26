@@ -19,9 +19,9 @@
         <h1>Ian Mordaunt</h1>
         <nav>
           <ul>
-            <li><a class="nav-aboutme" href="#aboutme">About Me</a></li>
-            <li><a class="nav-work" href="#work">Work</a></li>
-            <li><a class="nav-contactme" href="#contact-me">Contact Me</a></li>
+            <li><a class="nav-aboutme" href="#aboutmecontainer">About Me</a></li>
+            <li><a class="nav-work" href="#workcontainer">Work</a></li>
+            <li><a class="nav-contactme" href="#contactmecontainer">Contact Me</a></li>
             <li><a class="nav-resume" href="./assets/Resume/Resume.docx">Resume</a></li>
           </ul>
         </nav>
@@ -41,31 +41,34 @@
 
     <main>
       <section class="aboutmecontainer">
-        <h2>About Me</h2>
+        <aside class="aboutmetitle">
+          <h2>About Me</h2>
+        </aside>
         <div class="aboutmeinfo">
           <p>
           Learning something new is what I live for.  Everyday is a new oppotunity improve myself and grow in knowledge. Collaborating with others to achieve higher goals is where I feel at my best.  I love being in a team environment. Seeing and hearing about different perspectives excites me.  I strongly believe in the saying, "two minds are greater than one." Making progress and sharing progress with others brings me satisfaction.  Life long learning is my goal. Constantly gaining knowledge and putting that knowledge into practice is my life goal.  
-          
           </p>
         </div>
       </section>
 
-    <section class="workcontainer">
-        <h2>Work</h2>
-      <section class="workinfo">
+      <section class="workcontainer">
+        <aside class="worktitle">
+          <h2>Work</h2>
+        </aside>
+        <section class="workinfo">
         <div class="row">
-          <a class="biggeo row1" href="https://github.com/IanMordaunt/01-code_refactor">
-            <div>
-              <h2>Project 1</h2>
+          <a class="biggeo row1" href="https://ianmordaunt.github.io/05-Day_Planner/">
+            <div class="row1titlebox">
+              <h2>Day Planner</h2>
               <p>HTML / CSS</p>
             </div>
           </a>
           </a>
         </div>
         <div class="row">
-          <a class="geo row2" href='https://github.com/'>
+          <a class="geo row2" href='https://github.com/wissamk08/BootCampProject-01'>
             <div>
-              <h2>Project 2</h2>
+              <h2>Stox-ster</h2>
               <p>JavaScript</p>
             </div>
           </a>
@@ -94,27 +97,28 @@
     </section>
 
     <section class="contactmecontainer">
+      <aside class="contactmetitle">
         <h2>Contact Me</h2>
+       
+      </aside>
       <section class="contactinfo">
         <ul>
-          <li class="phone">(505)554-0505</li>
+          <li class="phone">(505)5540505</li>
           <li><a href="ianmordaunt@gmail.com">ianmordaunt@gmail.com</a></li>
           <li class="linkedin">
-            <a href="https://www.linkedin.com/in/ian-mordaunt-9b701b220/"
-              >Linkedin</a
-            >
+            <a href="https://www.linkedin.com/in/ian-mordaunt-9b701b220/">Linkedin</a>
           </li>
           <li class="github">
             <a href="https://github.com/IanMordaunt">Github</a>
           </li>
         </ul>
-        </section>
+      </section>
     </section>
 
       <section class="signup">
         <h2>Let's Connect!</h2>
         <form>
-          <input type="text" placeholder="E-mail address" />
+          <input type="text" id="textinput" placeholder="E-mail address" />
           <p></p>
           <button>Submit</button>
         </form>
