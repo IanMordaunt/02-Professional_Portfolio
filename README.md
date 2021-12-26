@@ -27,4 +27,4 @@ This project provides the perfect look inside the infinite world of front end we
 
 ## Deployed Webpage: ## https://ianmordaunt.github.io/02-Professional_Portfolio/
 
-![Professional Portfolio](https://github.com/IanMordaunt/02-Professional_Portfolio/blob/main/assets/Ian%20Mordaunt-Portfolio.png)
+![Professional Portfolio](https://github.com/IanMordaunt/02-Professional_Portfolio/blob/main/assets/Ian_Mordaunt-PP.png)
